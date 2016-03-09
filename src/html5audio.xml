@@ -10,7 +10,7 @@
 	<creationDate>March 2016</creationDate>
 	
 	<copyright>Copyright (C) 2016 Marco Beierer. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<license>http://www.gnu.org/licenses/agpl-3.0.html GNU/AGPL</license>
 
 	<files folder="plugin">
 		<filename plugin="html5audio">html5audio.php</filename>
