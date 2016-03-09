@@ -14,7 +14,9 @@ class plgContentHtml5audio extends JPlugin {
 		}
 
 		foreach($matches as $match) {
-			$replacement = sprintf('<audio controls src="%s">%s</audio>', $match[1], JText::_('PLG_CONTENT_HTML5AUDIO_NOT_SUPPORTED'));
+			$filepath = htmlspecialchars($match[1]); // prevents XSS
+
+			$replacement = sprintf('<audio controls src="%s">%s</audio>', $filepath, JText::_('PLG_CONTENT_HTML5AUDIO_NOT_SUPPORTED'));
 			$article->text = str_replace($match[0], $replacement, $article->text);
 		}
 	}
