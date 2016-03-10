@@ -24,6 +24,7 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
+				<field name="base_path" type="text" default="" label="Base Path" />
 			</fieldset>
 		</fields>
 	</config>
