@@ -6,7 +6,7 @@
 	<authorEmail>email@marcobeierer.com</authorEmail>
 	<authorUrl>https://www.marcobeierer.com</authorUrl>
 	
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<creationDate>March 2016</creationDate>
 	
 	<copyright>Copyright (C) 2016 Marco Beierer. All rights reserved.</copyright>
@@ -28,4 +28,8 @@
 			</fieldset>
 		</fields>
 	</config>
+
+	<updateservers>
+		<server type="extension" name="HTML5 Audio Plugin Update Site">https://static.marcobeierer.com/joomla-extensions/html5audio/update.xml</server>
+	</updateservers>
 </extension>
